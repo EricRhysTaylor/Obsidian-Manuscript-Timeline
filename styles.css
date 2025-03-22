@@ -1,0 +1,86 @@
+/* Manuscript Timeline Plugin Styles */
+
+/* General SVG styles */
+.manuscript-timeline-svg {
+  background-color: transparent;
+}
+
+/* Typography styles */
+.subtitle-text {
+  font-size: 17px;
+  fill: #555555;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.subtitle-separator {
+  font-size: 17px;
+  fill: #555555;
+}
+
+.character-name {
+  font-size: 14px;
+}
+
+.character-separator {
+  font-size: 14px;
+}
+
+.timeline-tooltip {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.primary-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.scene-title {
+  /* Font size will be set dynamically */
+}
+
+.stage-text {
+  /* Base stage text style */
+}
+
+.stage-count {
+  font-size: 14px;
+  opacity: 0.7;
+  baseline-shift: super;
+}
+
+.status-text {
+  /* Base status text style */
+}
+
+.status-count {
+  font-size: 14px;
+  opacity: 0.7;
+  baseline-shift: super;
+}
+
+/* Buy me a coffee button */
+.bmc-button {
+  height: 60px !important;
+  width: 217px !important;
+}
+
+/* Screenshot styles */
+.screenshot-link {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.screenshot-image {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+
+.screenshot-caption {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #888;
+} 
